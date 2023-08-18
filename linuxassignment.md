@@ -20,7 +20,7 @@ In this guide, we'll cover the process of creating and managing users on a Linux
 6. I added the user "tobiloba" to the "altschool" group.
     ![Attach User to a Group](9.png)
 
-7. I edited the sudoers file to allow the "students" group to run the `cat` command on files in the `/etc/` directory.
+7. I edited the sudoers file to allow the "altschool" group to run the `cat` command on files in the `/etc/` directory.
      ![Allow "altschool" Group to Run `cat` on /etc/](7.png)
 
 8. I created a user named "nohometobiloba" without a home directory.
